@@ -1,0 +1,32 @@
+Maximum run time:
+Maximum time (in seconds) the algorithm will try to find a solution. Can be modified or stay as recommended. 
+
+Status:
+"On the ground": Find a solution to the problem in a situation where the plane is first on the ground. (before take off).
+"In the air": Find a solution to the problem in a situation where the plane is already in the air. (after take off).
+
+Note: Unless otherwise stated, "Relative time" is measured relative to the solution start time, which is zero.
+
+Start Day Min:
+If Status = "On the ground": Relative time (in minutes) at which the plane can begin to align.
+If Status = "In the air": Irrelevant. Use "-1" as default.
+
+Start Day Max:
+If Status = "On the ground": Maximum relative time at which the plane must begin to align.
+If Status = "In the air": Irrelevant. Use "-1" as default.
+
+Mission Duration: 
+If Status = "On the ground": Time duration (in minutes) at which the plane is in mission, after take off and until it finished the mission.
+                                         (plane that completed its mission can stay in the air as long as it has enough fuel, waiting to land).
+If Status = "In the air": Relative time (in minutes) at which the plane is in mission, until the moment it finished the mission.
+                                 (plane that completed its mission can stay in the air as long as it has enough fuel, waiting to land).
+
+Max Fuel: 
+If Status = "On the ground": Maximum time (in minutes) the plane can be in the air, from take off and until landing. (not included take off and landing fuel).
+If Status = "In the air": Relative maximum time (in minutes) the plane can be in the air, until landing. (not included landing fuel).
+                                 Use this as a fault representation, where a value close to zero represents a higher priority fault for landing.
+
+End Day:
+If Status = "On the ground": Relative time (in minutes), by this time the plane must finished its day. including aligning, take off, mission, land and evacuate the landing lane.
+If Status = "In the air": Irrelevant. Use "-1" as default.
+

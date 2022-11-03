@@ -1,0 +1,8 @@
+number_of_planes = 5
+number_of_lanes = 3
+max_run_time = 3
+plane0 00 00 100 145 170   5   5
+plane1 00 00 50  65  100   5   1
+plane2 00 00 50  65  100   5   2
+plane3 00 00 100 115 150   5   3
+plane4 00 00 100 115 150   5   4

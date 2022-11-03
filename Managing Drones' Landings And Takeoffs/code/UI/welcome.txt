@@ -1,0 +1,5 @@
+Welcome to our project: Planning Arrivals and Departures.
+proggramed by:  bar&tom.
+
+by clicking on the Start button below you will start the program.
+we have faith you will do it perfectly ;)

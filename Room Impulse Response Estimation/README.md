@@ -4,7 +4,7 @@
 
 </div>
 
-## Abstract:
+## Abstract
 
 Room impulse response (RIR) estimation is a fascinating problem that has a lot of applications.
 Augmented and virtual reality, automatic speech recognition (ASR) and dereverberation audio
@@ -17,7 +17,7 @@ estimates the ground-truth RIR of the room where the input audio file was record
 We have shown that our model succeeds to extract a target room’s features from a reverberant speech
 and then estimate RIRs well enough for a proof of concept.
 
-## Our work and code are based on:
+## Our work and code are based on
 
 ```
 @article{ratnarajah2021fast,
@@ -36,7 +36,7 @@ and then estimate RIRs well enough for a proof of concept.
     year={2021}}
 ```
 
-## Dataset:
+## Datasets
 
 ```
 Vassil Panayotov, Guoguo Chen, Daniel Povey, and San-jeev Khudanpur, “Librispeech: An ASR corpus based on public domain audio books,” in ICASSP. 2015, pp. 5206–5210, IEEE.
@@ -48,13 +48,10 @@ downloads/databases/aachen impulse response
 database/
 ```
 
-## 
+## About
 
 This work was written as part of M.Sc. studies in electrical engineering at the
 Technion - Israel Institute of Technology.
 
-Author:
-Tom-Avi Shapira
-
-Supervisor:
-Prof. Israel Cohen
+Author: Tom-Avi Shapira  
+Supervisor: Prof. Israel Cohen

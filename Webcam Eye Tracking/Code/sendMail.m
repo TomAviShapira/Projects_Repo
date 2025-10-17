@@ -5,8 +5,8 @@
 %%
 function [] = sendMail(videoName, th, filter, bufferSize, shift)
 %% send mail
-    mail = 'technionprojecta@gmail.com'; %Your GMail email address
-    password = 'litaltom';  %Your GMail password
+    mail = ''; %Your GMail email address
+    password = '';  %Your GMail password
     setpref('Internet','SMTP_Server','smtp.gmail.com');
     setpref('Internet','E_mail',mail);
     setpref('Internet','SMTP_Username',mail);
